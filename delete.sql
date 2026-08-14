@@ -1,5 +1,5 @@
---delete customers with id > 5
-delete from customers
-where id > 5
+--delete all the data from customers
+truncate table person
+-- using just delete may take long for big tables
 
-select * from customers
+select * from person
