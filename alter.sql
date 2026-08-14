@@ -1,6 +1,6 @@
--- add a new column called email to the persons table
+-- remove them column phone from the persons table
 
 alter table person
-add email varchar(50) not null
+drop column phone
 
 select * from person
