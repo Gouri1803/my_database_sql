@@ -1,10 +1,7 @@
 -- change the score of customer 6 to 0
 update customers
-set score = 0
-where id = 6
-
-update customers
-set score = 10000
-where id = 9
+set score = 10,
+	country = 'russia'
+where id = 5
 
 select * from customers
