@@ -3,7 +3,7 @@ FirstName,
 LastName
 from Sales.Customers
 
-UNION
+except
 
 select
 FirstName,
