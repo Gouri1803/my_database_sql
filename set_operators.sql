@@ -3,7 +3,9 @@ FirstName,
 LastName
 from Sales.Customers
 
-except
+UNION all 
+-- it is faster than union
+-- prioritise it if confidant that no duplicates
 
 select
 FirstName,
